@@ -1,0 +1,181 @@
+.academica{
+
+  background:#EAF2FD;
+  width: 100%;
+  height: 661px;
+  padding-top: 1px;
+}
+
+.academica-h2__titulos{
+
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: #464646;
+  
+}
+
+.academica-all__courses{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.academica__cursos{
+  
+  position: relative;
+  padding-bottom: 40px;
+  /*display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 180px;*/
+ 
+}
+
+.academica__img{
+
+  width: 296px;
+  height: 118px;
+  padding: 10px;
+  margin-left: 5px;
+  background: #FFFFFF;
+ 
+}
+
+.academica__imge{
+
+  width: 84px;
+  height: 58px;
+  padding: 35px 113px 35px 113px;
+ 
+  
+}
+
+.academica__descripcion{
+
+  position: absolute;
+  height: 43px;
+  width: auto;
+  margin-left: 5px;
+  line-height: 0.5px;
+ 
+
+}
+
+.academica__formacion{
+
+  font-weight: 700;
+  font-size: 16px; 
+ 
+}
+
+.academica__sitio{
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height:6px;
+  
+}
+
+@media screen and (min-width: 768px){
+
+
+  .academica{
+
+    background:#EAF2FD;
+    width: 100%;
+    height: 291px;
+    padding: 32px;
+  }
+  .academica-all__courses{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+
+  .academica__cursos{
+  
+   padding: 5px;
+}
+
+  .academica__img{
+
+  width: 215px;
+  height: 118px;
+ 
+}
+
+.academica__imge{
+
+  width: 84px;
+  height: 58px;
+  padding: 30px 70px 30px 70px;
+ 
+  
+}
+
+.academica__descripcion{
+
+  position: absolute;
+  line-height: 2px;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+
+  .academica{
+
+    background:#EAF2FD;
+    width: 100%;
+    height: 581px;
+    padding-top: 1px;
+  }
+
+  .academica-h2__titulos{
+
+    
+    font-size: 32px;
+    text-align: center;
+    color: #464646;
+    padding-top: 82px;
+    font-weight: 700;
+    line-height: 38px;
+    
+  }
+
+  .academica-all__courses{
+
+    margin-left: 50px;
+  }
+
+  .academica__cursos{
+
+    position: relative;
+    padding-right: 50px;
+    
+  }
+
+  .academica__img{
+
+  width: 328px;
+  height: 246px;
+  padding: auto;
+  
+  }
+
+  .academica__imge{
+
+    width: 192px;
+    height: 130px;
+    padding: auto;
+   
+    
+  }
+
+
+
+}

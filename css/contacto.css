@@ -1,0 +1,178 @@
+.contacto{
+
+  background-color: #eaf2fd;
+  width: 100%;
+  height: 675px;
+ 
+}
+
+.contacto-h2__titulo{
+
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+margin-top: 32px;
+}
+
+.contacto__img{
+
+  display: none;
+}
+
+.contacto__formulario{
+
+  padding: 0 0 0 20px;
+}
+
+.contacto__parrafo{
+
+width: 296px;
+height: 76px;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+}
+
+.campos__formulario{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto__entrada{
+
+  width: 296px;
+  height: 56px;
+  border-radius: 4px;
+  margin: 8px 0px;
+}
+
+.contacto__tarea{
+
+  margin-top: 2rem;
+  width: 296px;
+  height: 133px;
+  border-radius: 4px;
+  margin: 8px 0px;
+  margin: 8px 0px;
+}
+
+.contacto__button{
+
+  background-color: #2a7ae4;
+  margin-top: 2rem;
+  border: 1px solid #2a7ae4;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: white;
+  height: 40px;
+  width: 133px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px){
+
+  .contacto{
+
+    background-color: #eaf2fd;
+    width: 100%;
+    height: 637px;
+    padding-top: 1px;
+  }
+
+  .contacto__parrafo{
+
+    width: 656px;
+    height: 38px;
+
+  }
+
+  .contacto__entrada{
+
+    width: 704px;
+    height: 56px;
+    
+
+  }
+
+  .contacto__tarea{
+
+    margin-top: 2rem;
+    width: 704px;
+    height: 133px;
+    border-radius: 4px;
+    margin: 8px 0px;
+    margin: 8px 0px;
+   }
+
+}
+
+@media screen and (min-width: 1024px){
+
+  .contacto{
+
+    height: 788px;
+    display: flex;
+  }
+
+  .contacto__img{
+
+    display: inline-block;
+    margin-left: 70px;
+  }
+
+  .contacto__imgc{
+
+    width: 464px;
+    height: 593px;
+    margin-top: 130px;
+  }
+
+  .contacto__formulario{
+
+    width: 656px;
+    height: 593px;
+    margin-top: 100px;
+    margin-right: 70px;
+  }
+
+  .contacto-h2__titulo{
+
+    font-size: 32px;
+    line-height: 18px;
+    font-weight: 700;
+  
+  }
+
+  .contacto__entrada{
+
+    width: 656px;
+    height: 56px;
+    border-radius: 4px;
+    margin: 8px 0px;
+  }
+
+  .contacto__tarea{
+
+    margin-top: 2rem;
+    width: 656px;
+    height: 133px;
+    border-radius: 4px;
+    margin: 8px 0px;
+    margin: 8px 0px;
+    padding-bottom: 15px;
+   }
+
+   .contacto__button{
+
+    
+    width: 144px;
+    height: 51px;
+    
+    
+  }
+
+
+}
+

@@ -1,0 +1,321 @@
+.head {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 350px;
+ 
+}
+
+.head__colum{
+
+  position: relative;
+  background-color:grey;
+  height: 50px;
+  width:100%;
+  top: 5px;
+
+}
+
+.head__logo {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  Top: 13px;
+  Left: 15px;
+      
+}
+  
+.head__name{
+  
+  position: absolute;
+  font-size: 16px;
+  left: 40px;
+  padding-left: 5px;
+  
+  
+}
+  
+.head__email{
+  
+  position: absolute;
+  font-size: 14px;
+  right: 20px;
+  padding: 16px 0 16px 16px;
+  
+}
+  
+.head-ul__navegacion{
+  
+  display: none;
+  
+  
+}
+
+.head__img{
+
+width: 120px;
+height: 120px;
+
+}
+
+.head__foto{
+
+  width: 98px;
+  height: 98px;
+  padding-top:10px;
+  
+}
+
+.head__presentacion{
+padding: 2px;
+}
+
+.head__saludo{
+
+  margin: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: justify;
+
+}
+
+.head__quien{
+
+  margin: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;  
+  text-align: justify;
+  top: 160px;
+}
+
+.head__navegacion {
+
+  display: flex;
+  justify-content: space-between;
+  /*position: relative;*/
+  margin-left: 5px;
+  font-size: 14px;
+  width: 328px;
+  
+  
+}
+
+.head__link{
+
+  padding:5px;
+}
+
+@media screen and (min-width: 768px){
+
+ .head{
+  
+  width: 100%;
+  height: 266px;
+  position: relative;
+  
+ }
+
+ .head__colum{
+
+   
+    background-color:burlywood;
+    top: 5px;
+   
+   
+ }
+
+ .head__img{
+
+  position: absolute;
+  right: 10px;
+  width: 160px;
+  height: 160px;
+  bottom: 15px;
+  
+ }
+
+ .head__foto{
+
+  width: 146px;
+  height: 146px;
+  
+
+ }
+
+  .head__presentacion{
+
+    
+   width: 80%;
+   padding: 5px;
+  
+ }
+
+ .head__saludo{
+
+  margin: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: justify;
+
+ }
+
+ .head__quien{
+
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;  
+  text-align: start;
+  top: 160px;
+ }
+
+ .head__navegacion {
+
+  display: flex;
+  justify-content: flex-start;
+  /*position: relative;*/
+  font-size: 16px;
+  width:524px;
+  
+ }
+
+ .head__link{
+
+  margin-right:30px;
+
+}
+
+}
+
+@media screen and (min-width: 1024px){
+
+  .head{
+
+    position: relative;
+    width: 100%;
+    height: 520px;
+  }
+
+  .head__colum{
+
+  position: absolute;
+  background-color:yellow;
+  top: 20px;
+    
+  }
+
+  .head__img{
+
+    position: absolute;
+    right: 10px;
+    width: auto;
+    height: auto;
+    bottom: 35px;
+    
+    
+   }
+  
+   .head__foto{
+  
+    width: 368px;
+    height: 368px;
+    border-radius: 15em;
+    margin-right: 5em;
+  
+   }
+
+  .head__presentacion{
+
+    position: absolute;
+    padding: 5px;
+    top: 180px;
+    width: 750px;
+    
+   
+  }
+
+  .head__saludo{
+
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 45px;  
+    text-align: justify;
+    width: 745px;
+    height: 122px;
+    margin-left: 80px;
+  
+   }
+  
+   .head__quien{
+  
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;  
+    text-align: justify;
+    top: 160px;
+    width: 745px;
+    height: auto;
+    margin-left: 80px;
+    padding-bottom: 15px;
+   }
+  
+   .head__navegacion {
+
+    margin-left: 70px;
+  
+   }
+
+   .head__name{
+  
+    font-size: 18px;
+    padding-left: 8px;
+    margin-left: 90px;
+    
+    }
+
+    .head__logo{
+
+  width: 28px;
+  height: 28px;
+  margin-left: 80px;
+    }
+
+    .head__email{
+
+      font-size: 18px;
+      right: 100px;
+    }
+
+    .head-ul__navegacion{
+
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 300px;
+
+    }
+
+  
+    .head__enlace{
+
+      display: inline-block;
+      padding-right: 50px;
+      
+      
+  
+    }
+
+    .head__link{
+
+    margin-left: 2px;
+    
+    }
+
+}
+
