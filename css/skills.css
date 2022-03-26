@@ -3,7 +3,7 @@
   background: #E5E5E5;
   width: 100%;
   height: 492px;
-  padding-top:2px;
+  padding-top:4px;
 }
 
 .skills-h2__titulos{
@@ -13,6 +13,7 @@
   height: 26px;
   text-align: center;
   color: #464646;
+  margin-top: 15px;
   
 }
 
@@ -21,7 +22,7 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: auto;
-  
+  margin-top: 10px;
 
 }
 
@@ -127,9 +128,14 @@
     padding: 2px;
     margin-bottom: 30px;
     margin-left: 15px;
+    border-radius: 0.625rem;
+    box-shadow: 2px 2px 2px hsl(228, 10%, 20%)
    
-   
-    
+  }
+  .skills__principal:hover{
+
+  transform: scale(1.1, 1.1);
+  transition: 100ms;
   }
 
 

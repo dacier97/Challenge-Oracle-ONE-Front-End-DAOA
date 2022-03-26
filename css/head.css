@@ -31,18 +31,18 @@
 .head__name{
   
   position: absolute;
-  font-size: 16px;
+  font-size: 12px;
   left: 40px;
   padding-left: 5px;
-  
-  
+  top: 17px;
+
 }
   
 .head__email{
   
   position: absolute;
-  font-size: 14px;
-  right: 20px;
+  font-size: 12px;
+  left: 190px;
   padding: 16px 0 16px 16px;
   
 }
@@ -56,16 +56,16 @@
 
 .head__img{
 
-width: 120px;
-height: 120px;
+  width:25%;
 
 }
 
 .head__foto{
 
-  width: 98px;
-  height: 98px;
+  border-radius: 100%;
+  width: 100%;
   padding-top:10px;
+  
   
 }
 
@@ -128,6 +128,36 @@ padding: 2px;
    
    
  }
+
+ .head__logo {
+
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  Top: 13px;
+  Left: 15px;
+      
+}
+  
+.head__name{
+  
+  position: absolute;
+  font-size: 16px;
+  left: 40px;
+  padding-left: 5px;
+  top: 17px;
+
+}
+  
+.head__email{
+  
+  position: absolute;
+  font-size: 16px;
+  left: 550px;
+  padding: 16px 0 16px 16px;
+  width: 200px;
+  
+}
 
  .head__img{
 
@@ -198,29 +228,27 @@ padding: 2px;
   .head{
 
     position: relative;
-    width: 100%;
+    width:100%;
     height: 520px;
+    text-decoration: none;
   }
-
   .head__colum{
 
   position: absolute;
-  background-color:yellow;
+  /*background-color:yellow;*/
   top: 20px;
+  width:100%;
     
   }
-
   .head__img{
 
     position: absolute;
-    right: 10px;
+    left: 950px;
     width: auto;
     height: auto;
     bottom: 35px;
     
-    
    }
-  
    .head__foto{
   
     width: 368px;
@@ -229,7 +257,6 @@ padding: 2px;
     margin-right: 5em;
   
    }
-
   .head__presentacion{
 
     position: absolute;
@@ -239,7 +266,6 @@ padding: 2px;
     
    
   }
-
   .head__saludo{
 
     font-weight: 700;
@@ -251,7 +277,6 @@ padding: 2px;
     margin-left: 80px;
   
    }
-  
    .head__quien{
   
     font-weight: 400;
@@ -264,57 +289,90 @@ padding: 2px;
     margin-left: 80px;
     padding-bottom: 15px;
    }
-  
    .head__navegacion {
 
     margin-left: 70px;
   
    }
-
    .head__name{
   
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 8px;
     margin-left: 90px;
     
     }
-
     .head__logo{
 
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   margin-left: 80px;
     }
-
     .head__email{
-
-      font-size: 18px;
-      right: 100px;
+      position: absolute;
+      font-size: 20px;
+      left:1000px;
     }
-
     .head-ul__navegacion{
 
     display: inline-block;
     position: absolute;
-    top: 20px;
-    right: 300px;
-
+    top: 35px;
+    left: 400px;
+    font-size: 20px;
     }
 
-  
+    .head__ul{
+
+      position: relative;
+    }
     .head__enlace{
 
       display: inline-block;
-      padding-right: 50px;
+      padding-right: 25px;
       
-      
-  
     }
+    
+    .head__enlace::before{
 
+      content: "";
+      width: 0;
+      background: linear-gradient(#FEFEFE,#888888);
+      height: 3px;
+      position: absolute;
+      transition: width 0.2s;
+      cursor: pointer;
+
+    }
+    .head__enlace:hover::before{
+
+      width: 8%;
+    }
     .head__link{
 
     margin-left: 2px;
-    
+  
+    }
+    .head__link:link{
+
+      color:#464646
+    }
+    .head__link:visited{
+      color: #F10086;
+    }
+    .head__link:hover{
+
+      text-shadow: 1px 1px 5px;
+      transform: scale(1.1, 1.1);
+      transition: 100ms;
+
+    }
+    .head-span__name{
+
+     color: rgb(23, 209, 172);
+    }
+    .head__span{
+
+      color: red;
     }
 
 }

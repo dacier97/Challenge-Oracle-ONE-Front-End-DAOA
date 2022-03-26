@@ -14,6 +14,7 @@
   height: 26px;
   text-align: center;
   color: #464646;
+  margin-top: 10px;
 }
 
 .hobbies__bloque{
@@ -21,6 +22,7 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: auto;
+  margin-top: 10px;
 }
 
 .hobbies__principal{
@@ -119,9 +121,16 @@
     padding: 2px;
     margin-bottom: 30px;
     margin-left: 15px;
-   
-   
+    border-radius: 0.625rem;
+    box-shadow: 2px 2px 2px hsl(228, 10%, 20%)
+  
     
+  }
+
+  .hobbies__principal:hover{
+
+    transform: scale(1.1, 1.1);
+    transition: 100ms;
   }
 
 

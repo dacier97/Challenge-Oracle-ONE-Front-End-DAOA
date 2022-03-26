@@ -5,11 +5,10 @@
   width: 100%;
   height: 350px;
   background: #EAF2FD;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 .about__me{
-
 
 font-size: 22px;
 line-height: 26px;
@@ -17,7 +16,7 @@ font-weight: 700;
 width: 94px;
 height: 26px;
 margin-left: 7px;
-
+margin-top: 5px;
 
 }
 
@@ -29,16 +28,15 @@ line-height: 16px;
 /* Preto/100% */
 color: #464646;
 margin-left: 7px;
+margin-top: 10px;
 
 }
 
 .about__img{
 
 width: 140px;
-height: 52px;
+height: 40px;
 margin-left: 7px;
-margin-top: 20px;
-
 }
 
 @media screen and (min-width: 768px){
@@ -69,6 +67,7 @@ margin-top: 20px;
     width: 137px;
     height: 38px;
     margin-left: 80px;
+    margin-top: 40px;
       
   }
 
@@ -76,18 +75,22 @@ margin-top: 20px;
 
 
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 19px;
     /* Preto/100% */
     color: #464646;
     margin-left: 80px;
     width: 751px;
+    text-align: justify;
+    margin-top: 20px;
     
   }
 
   .about__img{
 
     margin-left: 80px;
+    margin-top: 20px;
+  
   }
   
   
